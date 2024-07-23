@@ -22,7 +22,11 @@ def encode(password):
         elif char == "0":
             encoded_password += "3"
     return encoded_password
-
+def decode(password):
+   decoded_password=''
+   for i in password:
+       decoded_password+=str(int(i)-3)
+   return decoded_password
 
 def main():
     choice = 0
