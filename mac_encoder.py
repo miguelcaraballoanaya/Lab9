@@ -30,7 +30,7 @@ def main():
         print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit")
         choice = int(input("Please enter an option: "))
         if choice == 1:
-            password = str(input("Please enter the password to encode: "))
+            password = str(input("Please nter the password to encode: "))
             encoded_password = encode(password)
             print("Your password has been encoded and stored!")
         elif choice == 2:
